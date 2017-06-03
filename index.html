@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="blog-nav">
+          <a class="blog-nav-item active" href="#">Home</a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="blog-header">
+        <h1 class="blog-title">Eduan's Github Page</h1>
+        <p class="lead blog-description">Just another ordinary github page of a pretentious programmer.</p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-sm-8 blog-main">
+
+          <div class="blog-post">
+            <a name="drawing"></a>
+            <h2 class="blog-post-title">Drawing with GA</h2>
+            <a href="javascript:;" onclick="p.nextGeneration()" title="Play"><i class="glyphicon glyphicon-play"></i></a></p>
+            <canvas id="escopo" width="600" height="600" style="border:1px solid #d3d3d3;">
+            <a href="https://github.com/eduan/jsexperiments/blob/master/gadrawaline.html" target="_blank">Source code</a> | 
+            <a href="https://en.wikipedia.org/wiki/Genetic_algorithm" target="_blank">What's this?</a>
+
+          </div><!-- /.blog-post -->
+         
+
+          <div class="blog-post">
+            <a name="gameoflife"></a>
+            <h2 class="blog-post-title">Game of life using ES6</h2>
+            <p>
+                <a href="javascript:;" onclick="a.play()" title="Play"><i class="glyphicon glyphicon-play"></i></a> | <a href="javascript:;" onclick="a.stop()" title="Stop"><i class="glyphicon glyphicon-pause"></i></a></p>
+            <table id="canvas"></table>
+            <a href="https://github.com/eduan/gameoflife" target="_blank">Source code</a> | 
+            <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank">What's this?</a>
+          </div><!-- /.blog-post -->
+
+        </div><!-- /.blog-main -->
+
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+          <div class="sidebar-module sidebar-module-inset">
+            <h4>About</h4>
+            <p>Magento Consultant and PHP/Java/Python Dev. Nothing interesting.</p>
+          </div>
+          <div class="sidebar-module">
+            <h4>Archives</h4>
+            <ol class="list-unstyled">
+              <li><a href="#drawing">Drawing with GA</a></li>
+              <li><a href="#gameoflife">Game of life using ES6</a></li>
+            </ol>
+          </div>
+          <div class="sidebar-module">
+            <h4>Elsewhere</h4>
+            <ol class="list-unstyled">
+              <li><a href="https://github.com/eduan/">GitHub</a></li>
+              <li><a href="http://twitter.com/eduanlenine">Twitter</a></li>
+              <li><a href="http://facebook.com/eduan.lenine">Facebook</a></li>
+              <li><a href="https://analisandoosistema.wordpress.com/">Blog</a></li>
+            </ol>
+          </div>
+        </div><!-- /.blog-sidebar -->
+
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+    <footer class="blog-footer">
+      <p>Blog template built for <a href="http://getbootstrap.com">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </footer>
+    </body>
+    <script type="text/javascript" src="js/animation.js"></script>
+    <script type="text/javascript" src="js/gameoflife.js"></script>
+    <script type="text/javascript" src="js/drawingga.js"></script>
+</html>
